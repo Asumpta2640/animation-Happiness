@@ -1,0 +1,1 @@
+Node is runtime environment for JS in the desktop.

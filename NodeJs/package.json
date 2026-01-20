@@ -1,0 +1,26 @@
+{
+  "name": "Asumpta2640",
+  "version": "1.0.0",
+  "description": "learning npm and nodejs",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "touch testfile.txt",
+    "hi": "echo 'hello Asumpta'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Asumpta2640/animation-Happiness.git"
+  },
+  "author": "asumpta",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Asumpta2640/animation-Happiness/issues"
+  },
+  "homepage": "https://github.com/Asumpta2640/animation-Happiness#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "chalk": "^5.6.2"
+  }
+}
