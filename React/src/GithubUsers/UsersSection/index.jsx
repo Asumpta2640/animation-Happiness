@@ -1,14 +1,31 @@
-import SingleUser from "./SingleUser";
+//import SingleUser from "./SingleUser";
 import users from "./../users.json";
+import SingleUserV2 from "./SingleUserV2";
 
-function UsersSection() {;
-    console.log(users)
-    return (
+function UsersSection() {
+    const user0 = users[8];
+    const user1 = users[1];
+    const user2 = users[2];
+        return (
         <div>
-            <h2>User section coming soon</h2>
-            <SingleUser />
+            <SingleUserV2
+            avatar_url={user0.avatar_url}
+            login={user0.login}
+            url={user0.url}
+            />
+            <SingleUserV2
+            avatar_url={user1.avatar_url}
+            login={user1.login}
+            url={user1.url}
+            />
+            <SingleUserV2
+            avatar_url={user2.avatar_url}
+            login={user2.login}
+            url={user2.url}
+            />
         </div>
     );
+    
 }
 
 export default UsersSection;

@@ -2,7 +2,19 @@ function SingleUserV2(props) {
     console.log("props are", props);
     return (
         <div>
-            <h1>Coming soon</h1>
+        <div>
+            <div>
+                <img src={props.avatar_url}  />
+            </div>
+            <ul>
+                <li>
+                    Name <b>{props.login}</b>
+                </li>
+                <li>
+                    url <b>{props.url}</b>
+                </li>
+            </ul>
+        </div>
         </div>
     );
 }
