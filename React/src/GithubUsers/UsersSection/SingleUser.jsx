@@ -42,7 +42,7 @@ function SingleUser() {
                     Name <b>{User.login}</b>
                 </li>
                 <li>
-                    url <b>{User.url}</b>
+                    url <b>{Use.url}</b>
                 </li>
             </ul>
         </div>
